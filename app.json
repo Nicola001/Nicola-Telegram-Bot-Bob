@@ -1,0 +1,27 @@
+{
+    "name": "Telegram Bot",
+    "description": "Telegram Bot Bob",
+    "keywords": [
+        "PHP",
+        "Telegram",
+        "Bot"
+    ],
+    "website": "https://nicolagiovannini.com",
+    "repository": "https://github.com/Nicola001/Nicola-Telegram-Bot-Bob.git",
+    "success_url": "/",
+    "env": {
+        "API_TOKEN": {
+            "description": "Telegram API Token@BotFather"
+        },
+        "CHAT": {
+           "description": "Nicola"
+    }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
