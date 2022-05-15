@@ -62,7 +62,7 @@
 }
 ///Informazioni Utente
 if($message == "/info"){
-    send_message($chat_id,$message_id, "User Info \nName: $firstname\nID:$id \nUsername: @$username \nImmobile: #");
+    send_message($chat_id,$message_id, "User Info \nNome: $firstname\nID:$id \nUsername: @$username \nImmobile: #");
 }
 
 ///Offerte
